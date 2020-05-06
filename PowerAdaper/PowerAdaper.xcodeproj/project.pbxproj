@@ -15,8 +15,10 @@
 		329FA17224630B5300E1784C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 329FA17124630B5300E1784C /* Assets.xcassets */; };
 		329FA17524630B5300E1784C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329FA17324630B5300E1784C /* LaunchScreen.storyboard */; };
 		329FA18024630B5400E1784C /* PowerAdaperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329FA17F24630B5400E1784C /* PowerAdaperTests.swift */; };
-		329FA18D24630E6100E1784C /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329FA18B24630E6100E1784C /* TestViewController.swift */; };
-		329FA18E24630E6100E1784C /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 329FA18C24630E6100E1784C /* TestViewController.xib */; };
+		329FA18D24630E6100E1784C /* SNViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329FA18B24630E6100E1784C /* SNViewController.swift */; };
+		329FA18E24630E6100E1784C /* SNViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 329FA18C24630E6100E1784C /* SNViewController.xib */; };
+		329FA1902463125A00E1784C /* SNView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329FA18F2463125A00E1784C /* SNView.swift */; };
+		329FA1922463129800E1784C /* SNController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329FA1912463129800E1784C /* SNController.swift */; };
 		B55BE1B7F7E7F7156A9C94D6 /* Pods_PowerAdaper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B67FD3A49A26A548F3C88B7 /* Pods_PowerAdaper.framework */; };
 /* End PBXBuildFile section */
 
@@ -45,8 +47,10 @@
 		329FA17B24630B5400E1784C /* PowerAdaperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PowerAdaperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		329FA17F24630B5400E1784C /* PowerAdaperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerAdaperTests.swift; sourceTree = "<group>"; };
 		329FA18124630B5400E1784C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		329FA18B24630E6100E1784C /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
-		329FA18C24630E6100E1784C /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
+		329FA18B24630E6100E1784C /* SNViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNViewController.swift; sourceTree = "<group>"; };
+		329FA18C24630E6100E1784C /* SNViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SNViewController.xib; sourceTree = "<group>"; };
+		329FA18F2463125A00E1784C /* SNView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNView.swift; sourceTree = "<group>"; };
+		329FA1912463129800E1784C /* SNController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNController.swift; sourceTree = "<group>"; };
 		AE975640D3C2D0F7869B10B4 /* Pods-PowerAdaper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PowerAdaper.release.xcconfig"; path = "Target Support Files/Pods-PowerAdaper/Pods-PowerAdaper.release.xcconfig"; sourceTree = "<group>"; };
 		E8A719CC1B8AFD16300B46D0 /* Pods_PowerAdaperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PowerAdaperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB7E5E5C59876D95E963C0B /* Pods-PowerAdaper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PowerAdaper.debug.xcconfig"; path = "Target Support Files/Pods-PowerAdaper/Pods-PowerAdaper.debug.xcconfig"; sourceTree = "<group>"; };
@@ -130,8 +134,10 @@
 		329FA18A24630E3C00E1784C /* POC */ = {
 			isa = PBXGroup;
 			children = (
-				329FA18B24630E6100E1784C /* TestViewController.swift */,
-				329FA18C24630E6100E1784C /* TestViewController.xib */,
+				329FA18B24630E6100E1784C /* SNViewController.swift */,
+				329FA18C24630E6100E1784C /* SNViewController.xib */,
+				329FA18F2463125A00E1784C /* SNView.swift */,
+				329FA1912463129800E1784C /* SNController.swift */,
 			);
 			path = POC;
 			sourceTree = "<group>";
@@ -231,7 +237,7 @@
 			files = (
 				329FA17524630B5300E1784C /* LaunchScreen.storyboard in Resources */,
 				329FA17224630B5300E1784C /* Assets.xcassets in Resources */,
-				329FA18E24630E6100E1784C /* TestViewController.xib in Resources */,
+				329FA18E24630E6100E1784C /* SNViewController.xib in Resources */,
 				329FA17024630B5000E1784C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,8 +321,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				329FA16D24630B5000E1784C /* ViewController.swift in Sources */,
+				329FA1902463125A00E1784C /* SNView.swift in Sources */,
 				329FA16924630B4F00E1784C /* AppDelegate.swift in Sources */,
-				329FA18D24630E6100E1784C /* TestViewController.swift in Sources */,
+				329FA18D24630E6100E1784C /* SNViewController.swift in Sources */,
+				329FA1922463129800E1784C /* SNController.swift in Sources */,
 				329FA16B24630B5000E1784C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
