@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,8 @@
 		329FA17224630B5300E1784C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 329FA17124630B5300E1784C /* Assets.xcassets */; };
 		329FA17524630B5300E1784C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329FA17324630B5300E1784C /* LaunchScreen.storyboard */; };
 		329FA18024630B5400E1784C /* PowerAdaperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329FA17F24630B5400E1784C /* PowerAdaperTests.swift */; };
+		329FA18D24630E6100E1784C /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329FA18B24630E6100E1784C /* TestViewController.swift */; };
+		329FA18E24630E6100E1784C /* TestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 329FA18C24630E6100E1784C /* TestViewController.xib */; };
 		B55BE1B7F7E7F7156A9C94D6 /* Pods_PowerAdaper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B67FD3A49A26A548F3C88B7 /* Pods_PowerAdaper.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +45,8 @@
 		329FA17B24630B5400E1784C /* PowerAdaperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PowerAdaperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		329FA17F24630B5400E1784C /* PowerAdaperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerAdaperTests.swift; sourceTree = "<group>"; };
 		329FA18124630B5400E1784C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		329FA18B24630E6100E1784C /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
+		329FA18C24630E6100E1784C /* TestViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestViewController.xib; sourceTree = "<group>"; };
 		AE975640D3C2D0F7869B10B4 /* Pods-PowerAdaper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PowerAdaper.release.xcconfig"; path = "Target Support Files/Pods-PowerAdaper/Pods-PowerAdaper.release.xcconfig"; sourceTree = "<group>"; };
 		E8A719CC1B8AFD16300B46D0 /* Pods_PowerAdaperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PowerAdaperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBB7E5E5C59876D95E963C0B /* Pods-PowerAdaper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PowerAdaper.debug.xcconfig"; path = "Target Support Files/Pods-PowerAdaper/Pods-PowerAdaper.debug.xcconfig"; sourceTree = "<group>"; };
@@ -76,13 +80,13 @@
 				204CC3430572F81E41CA1682 /* Pods-PowerAdaperTests.debug.xcconfig */,
 				0E6FFDDE4094320237515E43 /* Pods-PowerAdaperTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
 		329FA15C24630B4F00E1784C = {
 			isa = PBXGroup;
 			children = (
+				329FA18A24630E3C00E1784C /* POC */,
 				329FA16724630B4F00E1784C /* PowerAdaper */,
 				329FA17E24630B5400E1784C /* PowerAdaperTests */,
 				329FA16624630B4F00E1784C /* Products */,
@@ -121,6 +125,15 @@
 				329FA18124630B5400E1784C /* Info.plist */,
 			);
 			path = PowerAdaperTests;
+			sourceTree = "<group>";
+		};
+		329FA18A24630E3C00E1784C /* POC */ = {
+			isa = PBXGroup;
+			children = (
+				329FA18B24630E6100E1784C /* TestViewController.swift */,
+				329FA18C24630E6100E1784C /* TestViewController.xib */,
+			);
+			path = POC;
 			sourceTree = "<group>";
 		};
 		48C307AAE68A946BA1E40F90 /* Frameworks */ = {
@@ -218,6 +231,7 @@
 			files = (
 				329FA17524630B5300E1784C /* LaunchScreen.storyboard in Resources */,
 				329FA17224630B5300E1784C /* Assets.xcassets in Resources */,
+				329FA18E24630E6100E1784C /* TestViewController.xib in Resources */,
 				329FA17024630B5000E1784C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +316,7 @@
 			files = (
 				329FA16D24630B5000E1784C /* ViewController.swift in Sources */,
 				329FA16924630B4F00E1784C /* AppDelegate.swift in Sources */,
+				329FA18D24630E6100E1784C /* TestViewController.swift in Sources */,
 				329FA16B24630B5000E1784C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
