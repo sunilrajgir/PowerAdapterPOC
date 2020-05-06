@@ -1,0 +1,46 @@
+PODS:
+  - DeepDiff (2.3.1)
+  - PowerAdapter (0.2.8):
+    - DeepDiff
+    - RxCocoa (~> 5)
+    - RxSwift (~> 5)
+    - RxSwiftExt (~> 5)
+  - RxCocoa (5.1.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.1.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.1.1)
+  - RxSwiftExt (5.2.0):
+    - RxSwiftExt/Core (= 5.2.0)
+    - RxSwiftExt/RxCocoa (= 5.2.0)
+  - RxSwiftExt/Core (5.2.0):
+    - RxSwift (~> 5.0)
+  - RxSwiftExt/RxCocoa (5.2.0):
+    - RxCocoa (~> 5.0)
+    - RxSwiftExt/Core
+
+DEPENDENCIES:
+  - PowerAdapter (= 0.2.8)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - DeepDiff
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - RxSwiftExt
+  https://github.com/masterprash2/ios-segment-spec.git:
+    - PowerAdapter
+
+SPEC CHECKSUMS:
+  DeepDiff: e5ae6c50d0321568e4508cec5930b9f10bb293fc
+  PowerAdapter: db645f73eab207ca893ce7c7de441bd01fb2cf85
+  RxCocoa: 32065309a38d29b5b0db858819b5bf9ef038b601
+  RxRelay: d77f7d771495f43c556cbc43eebd1bb54d01e8e9
+  RxSwift: 81470a2074fa8780320ea5fe4102807cb7118178
+  RxSwiftExt: 4ca80336f43c28f11a2825cdd2fc61dd6c044697
+
+PODFILE CHECKSUM: 1b39a9f11cf95e6af92fcda32e1b92b1f7e572c2
+
+COCOAPODS: 1.9.1

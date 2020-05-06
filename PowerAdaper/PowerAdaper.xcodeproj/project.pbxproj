@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044E1995E013E8044F2AE90D /* Pods_PowerAdaperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8A719CC1B8AFD16300B46D0 /* Pods_PowerAdaperTests.framework */; };
 		329FA16924630B4F00E1784C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329FA16824630B4F00E1784C /* AppDelegate.swift */; };
 		329FA16B24630B5000E1784C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329FA16A24630B5000E1784C /* SceneDelegate.swift */; };
 		329FA16D24630B5000E1784C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329FA16C24630B5000E1784C /* ViewController.swift */; };
@@ -14,6 +15,7 @@
 		329FA17224630B5300E1784C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 329FA17124630B5300E1784C /* Assets.xcassets */; };
 		329FA17524630B5300E1784C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 329FA17324630B5300E1784C /* LaunchScreen.storyboard */; };
 		329FA18024630B5400E1784C /* PowerAdaperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 329FA17F24630B5400E1784C /* PowerAdaperTests.swift */; };
+		B55BE1B7F7E7F7156A9C94D6 /* Pods_PowerAdaper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B67FD3A49A26A548F3C88B7 /* Pods_PowerAdaper.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0B67FD3A49A26A548F3C88B7 /* Pods_PowerAdaper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PowerAdaper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E6FFDDE4094320237515E43 /* Pods-PowerAdaperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PowerAdaperTests.release.xcconfig"; path = "Target Support Files/Pods-PowerAdaperTests/Pods-PowerAdaperTests.release.xcconfig"; sourceTree = "<group>"; };
+		204CC3430572F81E41CA1682 /* Pods-PowerAdaperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PowerAdaperTests.debug.xcconfig"; path = "Target Support Files/Pods-PowerAdaperTests/Pods-PowerAdaperTests.debug.xcconfig"; sourceTree = "<group>"; };
 		329FA16524630B4F00E1784C /* PowerAdaper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PowerAdaper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		329FA16824630B4F00E1784C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		329FA16A24630B5000E1784C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +43,9 @@
 		329FA17B24630B5400E1784C /* PowerAdaperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PowerAdaperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		329FA17F24630B5400E1784C /* PowerAdaperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerAdaperTests.swift; sourceTree = "<group>"; };
 		329FA18124630B5400E1784C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE975640D3C2D0F7869B10B4 /* Pods-PowerAdaper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PowerAdaper.release.xcconfig"; path = "Target Support Files/Pods-PowerAdaper/Pods-PowerAdaper.release.xcconfig"; sourceTree = "<group>"; };
+		E8A719CC1B8AFD16300B46D0 /* Pods_PowerAdaperTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PowerAdaperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBB7E5E5C59876D95E963C0B /* Pods-PowerAdaper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PowerAdaper.debug.xcconfig"; path = "Target Support Files/Pods-PowerAdaper/Pods-PowerAdaper.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B55BE1B7F7E7F7156A9C94D6 /* Pods_PowerAdaper.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +61,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044E1995E013E8044F2AE90D /* Pods_PowerAdaperTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		31AF431036759E9FB22C8679 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBB7E5E5C59876D95E963C0B /* Pods-PowerAdaper.debug.xcconfig */,
+				AE975640D3C2D0F7869B10B4 /* Pods-PowerAdaper.release.xcconfig */,
+				204CC3430572F81E41CA1682 /* Pods-PowerAdaperTests.debug.xcconfig */,
+				0E6FFDDE4094320237515E43 /* Pods-PowerAdaperTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		329FA15C24630B4F00E1784C = {
 			isa = PBXGroup;
 			children = (
 				329FA16724630B4F00E1784C /* PowerAdaper */,
 				329FA17E24630B5400E1784C /* PowerAdaperTests */,
 				329FA16624630B4F00E1784C /* Products */,
+				31AF431036759E9FB22C8679 /* Pods */,
+				48C307AAE68A946BA1E40F90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +123,15 @@
 			path = PowerAdaperTests;
 			sourceTree = "<group>";
 		};
+		48C307AAE68A946BA1E40F90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0B67FD3A49A26A548F3C88B7 /* Pods_PowerAdaper.framework */,
+				E8A719CC1B8AFD16300B46D0 /* Pods_PowerAdaperTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +139,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 329FA18424630B5400E1784C /* Build configuration list for PBXNativeTarget "PowerAdaper" */;
 			buildPhases = (
+				DFE262976FC82F55F541A01B /* [CP] Check Pods Manifest.lock */,
 				329FA16124630B4F00E1784C /* Sources */,
 				329FA16224630B4F00E1784C /* Frameworks */,
 				329FA16324630B4F00E1784C /* Resources */,
+				A519E0A8B90C985A87496DAD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +158,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 329FA18724630B5400E1784C /* Build configuration list for PBXNativeTarget "PowerAdaperTests" */;
 			buildPhases = (
+				631AC42E1606D4A5D3AD4528 /* [CP] Check Pods Manifest.lock */,
 				329FA17724630B5400E1784C /* Sources */,
 				329FA17824630B5400E1784C /* Frameworks */,
 				329FA17924630B5400E1784C /* Resources */,
@@ -194,6 +230,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		631AC42E1606D4A5D3AD4528 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PowerAdaperTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A519E0A8B90C985A87496DAD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PowerAdaper/Pods-PowerAdaper-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PowerAdaper/Pods-PowerAdaper-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PowerAdaper/Pods-PowerAdaper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFE262976FC82F55F541A01B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PowerAdaper-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		329FA16124630B4F00E1784C /* Sources */ = {
@@ -360,6 +460,7 @@
 		};
 		329FA18524630B5400E1784C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBB7E5E5C59876D95E963C0B /* Pods-PowerAdaper.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -377,6 +478,7 @@
 		};
 		329FA18624630B5400E1784C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE975640D3C2D0F7869B10B4 /* Pods-PowerAdaper.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -394,6 +496,7 @@
 		};
 		329FA18824630B5400E1784C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 204CC3430572F81E41CA1682 /* Pods-PowerAdaperTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,6 +518,7 @@
 		};
 		329FA18924630B5400E1784C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E6FFDDE4094320237515E43 /* Pods-PowerAdaperTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
